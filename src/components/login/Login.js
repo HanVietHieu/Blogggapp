@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Table } from "semantic-ui-react";
 import { useEffect, useState } from "react";
-import { Button, Checkbox, Form } from "semantic-ui-react";
-import topbar from "../Topbar";
-import { Alert } from "react-bootstrap";
+import { Button, Form } from "semantic-ui-react";
 import axios from "axios";
-import Topbar from "../Topbar";
 
 export default function Login() {
   const [check, setCheck] = useState(false)

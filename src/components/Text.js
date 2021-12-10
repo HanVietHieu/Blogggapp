@@ -1,8 +1,5 @@
 import React from 'react';
-import Slick from './Slick'
 
-import Button from 'react-bootstrap/Button';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { button } from 'react-bootstrap';
 import img_supham from './images/supham.png'
 import img_suphamhcm from './images/suphamtphcm.png'

@@ -4,14 +4,7 @@ import "./topbar.css"
 import {Link} from 'react-router-dom'
 // import img_logo from './images/logo192.png'
 import img_moi from './images/new-badge.9116f07c.png'
-import Slick from './Slick'
-import Text from './Text'
-import Footer from './Footer';
-import login from './login/Login'
-
-import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { button } from 'react-bootstrap';
 
 
 const Menu = () => {
@@ -20,11 +13,11 @@ const Menu = () => {
     useEffect(() => {
         const y = JSON.stringify(localStorage.getItem('name'));
         console.log(y)
-        if(y != "null" ){
+        if(y !== "null" ){
            setUser(y);
         }
         console.log(user);
-    }, []);
+    }, [user]);
 
     useEffect(() => {
         console.log(user);
